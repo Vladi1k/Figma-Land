@@ -1,0 +1,76 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: local('Graphik Regular'), local('Graphik-Regular'),
+        url('Graphik-Regular.woff2') format('woff2'),
+        url('Graphik-Regular.woff') format('woff'),
+        url('Graphik-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    src: local('Graphik Medium'), local('Graphik-Medium'),
+        url('Graphik-Medium.woff2') format('woff2'),
+        url('Graphik-Medium.woff') format('woff'),
+        url('Graphik-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+body{
+    font-family: 'Graphik', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.container{
+    min-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header{
+    background-color: #181818;
+    padding-top: 20px;
+    padding-bottom: 56px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+}
+
+
+.menu__item{
+    padding-right: 31px;
+}
+
+.menu__link{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.header__button{
+    padding: 14px 46px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+}
