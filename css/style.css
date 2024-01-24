@@ -16,6 +16,7 @@
 body {
   font-family: 'Graphik', sans-serif;
   font-size: 16px;
+  letter-spacing: 0.2px;
   color: #FFFFFF;
 }
 
@@ -25,7 +26,7 @@ a {
 }
 
 .container {
-  min-width: 1220px;
+  max-width: 1220px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -54,7 +55,6 @@ a {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.2px;
 }
 
 .header__button {
@@ -62,7 +62,58 @@ a {
   font-size: 17px;
   font-weight: 500;
   line-height: 25px;
-  letter-spacing: 0.2px;
   border: 1px solid #FFF;
   box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+}
+
+.headline {
+  background-color: #181818;
+  text-align: center;
+}
+
+.headline__title {
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 88px;
+  padding-top: 50px;
+  margin-bottom: 27px;
+}
+
+.headline__descr {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 85px;
+}
+
+.headline__buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.headline__link-blue, .headline__link-black {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.headline__link-blue {
+  margin-right: 35px;
+  padding: 20px 40px;
+  background-color: #4452FE;
+}
+
+.headline__link-black {
+  padding: 20px 40px;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+}
+
+.headline__screens {
+  width: 95%;
+  height: 95%;
+  position: relative;
+  margin-top: 35px;
+  margin-bottom: 152px;
 }
