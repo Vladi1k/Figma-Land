@@ -124,19 +124,27 @@ a{
     margin-bottom: 152px;
 }
 
-.calendar__title{
-    text-align: center;
+%title-set{
     font-size: 52px;
     font-weight: 400;
     line-height: 62px;
+}
+
+%descr-set{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.calendar__title{
+    text-align: center;
+    @extend %title-set;
     margin-bottom: 27px;
 }
 
 .calendar__descr{
     text-align: center;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
+    @extend %descr-set;
     margin-bottom: 81px;
 }
 
@@ -193,16 +201,12 @@ a{
 }
 
 .contents__title{
-    font-size: 52px;
-    font-weight: 400;
-    line-height: 62px;
     margin-bottom: 20px;
+    @extend %title-set;
 }
 
 .contents__descr{
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
+    @extend %descr-set;
     margin-bottom: 54px;
 }
 
@@ -237,10 +241,75 @@ a{
     margin-bottom: 57px;
 }
 
-.btn{
+.btn-mod{
     margin-bottom: 30px;
 }
 
 .contents__item-img{
     margin-bottom: 40px;
+}
+
+
+.gallery{
+    text-align: center;
+    margin-top: 212px;
+    margin-bottom: 150px;
+}
+
+.gallery__title{
+    @extend %title-set;
+    margin-bottom: 20px;
+}
+
+.gallery__descr{
+    @extend %descr-set;
+    margin-bottom: 54px;
+}
+
+.gallery__items{
+    display: flex;
+    flex-wrap: wrap;
+    gap:33px;
+    justify-content: center;
+    margin-bottom: 44px;
+}
+
+.gallery__items-img{
+    border-radius: 12px;
+}
+
+.btn{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    padding: 14px 40px;
+    border: 1px solid #FFF;
+}
+
+.partners{
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.partners__title{
+    padding-top: 50px;
+    @extend %title-set;
+    margin-bottom: 20px;
+}
+
+.partners__descr{
+    @extend %descr-set;
+    margin-bottom: 60px;
+}
+
+.partners__items{
+    display: flex;
+    gap: 74px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partners__items{
+    margin-bottom: 55px;
 }
