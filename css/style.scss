@@ -313,3 +313,82 @@ a{
 .partners__items{
     margin-bottom: 55px;
 }
+
+.testimonials__title{
+    text-align: center;
+    @extend %title-set;
+    margin-bottom: 60px;
+}
+
+.testimonials__items{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 652px;
+    width: 883px;
+    margin:0 auto;
+}
+
+.testimonials__item{
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 10px;
+    padding: 40px 70px 40px 40px;
+    width: 430px;
+}
+
+.height-set{
+    height: 304px;
+}
+
+.height-set-2{
+    height: 328px;
+}
+
+
+.testimonials__box{
+    display: flex;
+    gap: 23px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+%name__prof-set{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+%testimonials__item-descr-set{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.box__name{
+    margin-bottom: 9px;
+    @extend %name__prof-set;
+}
+
+.box__profession{
+    @extend %name__prof-set;
+}
+
+.testimonials__item-descr{
+    @extend %testimonials__item-descr-set;
+}
+
+.set-2{
+    margin-bottom: 24px;
+    margin-left: 23px;
+}
+
+.set-3{
+    margin-left: 23px;
+}
+
+.testimonials{
+    margin-bottom: 150px;
+}
