@@ -314,6 +314,10 @@ a{
     margin-bottom: 55px;
 }
 
+.testimonials{
+    margin-bottom: 150px;
+}
+
 .testimonials__title{
     text-align: center;
     @extend %title-set;
@@ -337,6 +341,15 @@ a{
     width: 430px;
 }
 
+.set-2{
+    margin-bottom: 24px;
+    margin-left: 23px;
+}
+
+.set-3{
+    margin-left: 23px;
+}
+
 .height-set{
     height: 304px;
 }
@@ -344,7 +357,6 @@ a{
 .height-set-2{
     height: 328px;
 }
-
 
 .testimonials__box{
     display: flex;
@@ -380,15 +392,35 @@ a{
     @extend %testimonials__item-descr-set;
 }
 
-.set-2{
-    margin-bottom: 24px;
-    margin-left: 23px;
+.opentype{
+    padding-top: 80px;
+    margin-bottom: 180px;
 }
 
-.set-3{
-    margin-left: 23px;
+.opentype__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 33px;
+    background-color: rgb(52, 52, 52);
 }
 
-.testimonials{
-    margin-bottom: 150px;
+.opentype__box{
+    margin-left: 94px;
+}
+
+.opentype__box-title{
+    @extend %title-set;
+}
+
+.opentype__box-btn{
+    padding: 12px 67px;
+    display: inline-block;
+    margin-top: 35px;
+    background-color: rgb(68, 82, 254);
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.2px;
 }

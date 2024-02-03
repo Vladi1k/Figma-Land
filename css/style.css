@@ -115,7 +115,7 @@ a {
   margin-bottom: 152px;
 }
 
-.calendar__title, .contents__title, .gallery__title, .partners__title, .testimonials__title {
+.calendar__title, .contents__title, .gallery__title, .partners__title, .testimonials__title, .opentype__box-title {
   font-size: 52px;
   font-weight: 400;
   line-height: 62px;
@@ -294,6 +294,10 @@ a {
   margin-bottom: 55px;
 }
 
+.testimonials {
+  margin-bottom: 150px;
+}
+
 .testimonials__title {
   text-align: center;
   margin-bottom: 60px;
@@ -314,6 +318,15 @@ a {
   border-radius: 10px;
   padding: 40px 70px 40px 40px;
   width: 430px;
+}
+
+.set-2 {
+  margin-bottom: 24px;
+  margin-left: 23px;
+}
+
+.set-3 {
+  margin-left: 23px;
 }
 
 .height-set {
@@ -349,15 +362,31 @@ a {
   margin-bottom: 9px;
 }
 
-.set-2 {
-  margin-bottom: 24px;
-  margin-left: 23px;
+.opentype {
+  padding-top: 80px;
+  margin-bottom: 180px;
 }
 
-.set-3 {
-  margin-left: 23px;
+.opentype__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 33px;
+  background-color: #343434;
 }
 
-.testimonials {
-  margin-bottom: 150px;
+.opentype__box {
+  margin-left: 94px;
+}
+
+.opentype__box-btn {
+  padding: 12px 67px;
+  display: inline-block;
+  margin-top: 35px;
+  background-color: #4452fe;
+  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0.2px;
 }
