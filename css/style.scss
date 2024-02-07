@@ -50,14 +50,13 @@ li{
 
 .nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
 .menu{
     display: flex;
 }
-
 
 .menu__item{
     padding-right: 31px;
